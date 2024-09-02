@@ -1,7 +1,9 @@
-import Image from "next/image";
+import Task2 from "@/components/Task2";
 
 export default function Home() {
   return (
-   <h1>hello</h1>
+ <div className="flex flex-col items-center ">
+   <Task2/>
+ </div>
   );
 }
